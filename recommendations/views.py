@@ -2,11 +2,10 @@ from django.shortcuts import render
 
 # Create your views here.
 
-<<<<<<< HEAD
-rom rest_framework.views import APIView
-=======
+HEAD
 from rest_framework.views import APIView
->>>>>>> ba7a5b5 (commit all changes mad)
+from rest_framework.views import APIView
+
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from workouts.models import Workout
