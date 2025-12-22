@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 
 from django.urls import path
 from .views import RegisterView
@@ -11,7 +11,8 @@ urlpatterns = [
 ]
 
 path('logout/', LogoutView.as_view(), name='logout'),
-=======
+
+
 
 from django.urls import path
 from .views import RegisterView
@@ -24,4 +25,4 @@ urlpatterns = [
 ]
 
 path('logout/', LogoutView.as_view(), name='logout'),
->>>>>>> ba7a5b5 (commit all changes mad)
+
